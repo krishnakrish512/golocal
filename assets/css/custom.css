@@ -1,0 +1,215 @@
+.header-right .wishlist_products_counter::before{
+    font-size: 32px !important;
+    color: #fff !important;
+}
+.header-right .wishlist_products_counter:hover::before{
+    color: #fff !important;
+}
+.menu.sf-arrows .sf-with-ul:after 
+{
+      display: block !important;
+      position: absolute;
+      top: 50%;
+      right: 1.5rem;
+      margin-top: -1px;
+      transform: translateY(-50%);
+      font-family: 'porto';
+      font-size: 1.3rem;
+      line-height: 1;
+      content: '\e81c'; 
+}
+.sidebar-product .widget-title {
+    position: relative;
+}
+.widget-sold h3 {
+    font-size: 1.6rem;
+    letter-spacing: 0.01em;
+    font-weight: 600;
+    color: #222529;
+    margin-bottom: 0;
+}
+.widget-sold span.span-info {
+    color: #222529;
+    font-weight: 700;
+    margin: 0 5px;
+}
+.widget-sold span {
+    letter-spacing: 0.01em;
+    color: #777;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.widget-sold a {
+    margin-top: 2rem;
+    display: block;
+    font-size: 1.3rem;
+    color: #f14705;
+    font-weight: 700;
+    letter-spacing: .01em;
+}
+.sidebar-product .widget-title a {
+    margin-bottom: 1rem;
+    color: #222529;
+    font: 600 1.5rem/1.1 "Open Sans",sans-serif;
+    letter-spacing: 0.01em;
+    text-transform: none !important;
+    border-bottom-width: 1px;
+}
+.widget-sold h4 {
+    font-size: 1.3rem;
+    color: #999;
+    letter-spacing: 0.01em;
+    margin-bottom: 2rem;
+    font-weight: 500;
+}
+.widget-sold .widget-body {
+    padding: 2rem 1.5rem;
+    background-color: #f4f4f4;
+    margin: 2rem 0 4rem;
+}
+
+
+.product-desc-content
+{
+      font-size: 15px;
+}
+.featured-products .owl-stage-outer .owl-item 
+{
+      width: 224px !important; 
+}
+
+.product-single-details ul
+{
+      list-style: square !important;
+      margin-left: 18px;
+}
+
+/* Wocommerce Pages 
+=========================*/
+.woocommerce.tinv-wraper {
+    margin:0 !important;
+}
+.woocommerce{
+    margin: 100px 0;
+}
+.woocommerce .woocommerce-button{
+    padding: 1rem 2rem !important;
+    font-size: 1.4rem !important;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    border-radius: 0 !important;
+    min-width: 124px;
+    transition: all .3s;
+    background-color: #f4631b !important;
+    color: #fff !important;
+    margin-right: 0 !important;
+}
+.woocommerce .woocommerce-input-wrapper .input-text {
+    height: 36px;
+    border:none;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Dashbaord */
+.woocommerce .woocommerce-dashboard{
+    display: flex;
+    justify-content: space-between;
+}
+.woocommerce .woocommerce-MyAccount-navigation{
+    max-width: 15%;
+    flex: 0 0 15%
+}
+.woocommerce .woocommerce-MyAccount-navigation a{
+    display: block;
+    padding: 10px ;
+    margin-bottom: 5px;
+}
+.woocommerce .woocommerce-MyAccount-navigation .woocommerce-MyAccount-navigation-link.is-active a{
+    background-color: #f4631b;
+    color: #fff;
+}
+.woocommerce .woocommerce-MyAccount-navigation a:hover{
+    background-color: #efefef;
+    text-decoration: none;
+}
+.woocommerce .woocommerce-MyAccount-content{
+    max-width: 85%;
+    flex: 0 0 85%;
+    padding-left: 30px;
+}
+.woocommerce .woocommerce-MyAccount-content .woocommerce-Addresses{
+    display: flex;
+    justify-content: space-between;
+}
+.woocommerce .woocommerce-MyAccount-content .woocommerce-Addresses .woocommerce-Address{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.woocommerce .woocommerce-MyAccount-content  .woocommerce-Address .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.woocommerce .woocommerce-MyAccount-content  .woocommerce-Address .title .edit{
+    background-color: #222529;
+    text-align: center;
+    padding: 8px 15px;
+    color: #fff;
+    line-height: normal;
+
+}
+
+/* Checkout Page */
+/* .woocommerce form.checkout_coupon,  */
+.woocommerce form.login, 
+.woocommerce form.register,
+.woocommerce form.lost_reset_password{
+    padding: 0;
+    border:none;
+}
+.woocommerce form.login,
+.woocommerce form.lost_reset_password{
+    max-width: 450px;
+    min-width: 300px;
+}
+.woocommerce form .form-row{
+    flex-direction: column;
+
+}
+.woocommerce .form-row .woocommerce-Input ,
+.woocommerce .form-row .woocommerce-Input{
+    height: 36px;
+    border:none;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
+/* Checkout Page */
+
+.woocommerce-checkout .panel-heading{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #000;
+}
+.woocommerce-checkout .woocommerce-billing-fields .woocommerce-input-wrapper{
+    flex: 0 0 100%;
+}
+.woocommerce-checkout .woocommerce-billing-fields .woocommerce-input-wrapper .input-text{
+    display: block;
+    height: 40px;
+    border: none;
+    padding: 10px 15px;
+    background: #efefef;
+}
+.woocommerce-checkout button.button{
+    background: #f67e42 !important;
+    letter-spacing: -0.025em !important;
+    padding: 13px 30px !important;
+    font-family: "Open Sans", sans-serif !important;
+    font-size: 14px;
+}
